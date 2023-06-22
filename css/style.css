@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 30px 6%;
+  font-family: "Raleway", sans-serif;
+}
+
+.logo img {
+  width: 70%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 60px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  font-family: "Raleway", sans-serif;
+}
+
+.hero-kiri {
+  width: 40%;
+  margin-left: 80px;
+}
+
+.hero-kiri h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-kiri p {
+  margin-bottom: 30px;
+}
+
+.hero-kiri input {
+  border: 1px solid black;
+  padding: 8px 10px;
+  width: 250px;
+  margin-right: 20px;
+}
+
+.hero-kiri button {
+  padding: 8px 10px;
+  width: 200px;
+  background-color: hsl(224, 93%, 58%);
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-kiri button:hover {
+  background-color: hsl(224, 94%, 33%);
+}
+
+.hero-kanan {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.hero-kanan img {
+  width: 65%;
+}
+
+.main {
+  margin-top: 180px;
+  font-family: "Open Sans", sans-serif;
+  background-image: url(/img/bg-curve-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 20px;
+  height: 700px;
+}
+
+.isi {
+  display: flex;
+  gap: 200px;
+  margin-top: 100px;
+  padding: 10px 7%;
+}
+
+.isi-kiri {
+  width: 100%;
+}
+
+.isi-kiri h1 {
+  font-size: 1.8rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.isi-kiri p {
+  font-family: "Open Sans", sans-serif;
+  width: 90%;
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+
+.isi-kanan img {
+  width: 120%;
+  margin-top: 20px;
+}
+
+.cta button {
+  margin-bottom: 20px;
+  background-color: hsl(170, 45%, 43%);
+  padding: 10px 10px;
+  width: 200px;
+  color: white;
+  border-radius: 10px;
+}
+
+.testi {
+  width: 90%;
+  background-color: #fff;
+  padding: 40px 30px;
+  box-shadow: 0 0 1px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.testi p {
+  font-size: 1rem;
+}
+
+.testi .cust {
+  display: flex;
+  align-items: center;
+}
+
+.testi .cust img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.cust .cust-isi p {
+  width: 100%;
+  font-size: 0.8rem;
+  margin: auto;
+}
+
+.cust .cust-isi p span {
+  font-weight: 700;
+}
+
+.extra {
+  background-color: hsl(238, 22%, 44%);
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px;
+}
+.extra-kiri {
+  width: 40%;
+}
+.extra-kiri h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.extra-kiri p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  margin-top: 20px;
+  color: hsl(0, 0%, 75%);
+}
+
+.extra-kanan input {
+  border: 1px solid black;
+  padding: 8px 10px;
+  width: 350px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.extra-kanan button {
+  padding: 8px 10px;
+  width: 150px;
+  background-color: hsl(224, 93%, 58%);
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.extra-kanan button:hover {
+  background-color: hsl(224, 94%, 33%);
+}
+
+.container {
+  display: flex;
+  background-color: hsl(243, 87%, 12%);
+  padding: 30px;
+  justify-content: space-around;
+}
+
+.container .flex {
+  width: 300px;
+  color: white;
+  padding: 30px 30px;
+}
+
+.flex .penutup-logo img {
+  filter: brightness(0) invert(1);
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.penutup-phone {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.penutup-phone img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px;
+}
+
+.penutup-email {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.penutup-email img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px;
+}
+
+.about {
+  margin-top: 30px;
+}
+.about ul {
+  color: white;
+  line-height: 40px;
+}
+
+.carrer {
+  margin-top: 30px;
+}
+
+.carrer ul {
+  color: white;
+  line-height: 40px;
+}
+
+.sosmed img {
+  width: 20%;
+  margin-top: 30px;
+}
